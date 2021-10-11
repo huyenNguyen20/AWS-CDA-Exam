@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-11T10:13:57.506Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="tU6HssGtNYiqryzadMw7" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-11T10:21:17.227Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="DkbgakHD2PsF9karAPHc" version="15.5.0" type="github">
   <diagram id="aU0tRZ-xjFhMleH86wgd" name="Page-1">
     <mxGraphModel dx="981" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -353,7 +353,7 @@
           <mxGeometry x="500" y="3080" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h16lKIf4oV1V5IKHez9Z-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="42.5" y="3230" width="790" height="470" as="geometry" />
+          <mxGeometry x="10" y="3230" width="822.5" height="540" as="geometry" />
         </mxCell>
         <mxCell id="h16lKIf4oV1V5IKHez9Z-2" value="&lt;span style=&quot;font-size: 24px&quot;&gt;Kinesis Data Stream&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="190" y="3270" width="470" height="30" as="geometry" />
@@ -380,7 +380,7 @@
           <mxGeometry x="400" y="3550" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="h16lKIf4oV1V5IKHez9Z-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="3310" width="120" height="340" as="geometry" />
+          <mxGeometry x="55" y="3310" width="120" height="340" as="geometry" />
         </mxCell>
         <mxCell id="h16lKIf4oV1V5IKHez9Z-11" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="390" y="3380" width="60" height="30" as="geometry" />
@@ -472,17 +472,20 @@
             <mxPoint x="655" y="3540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h16lKIf4oV1V5IKHez9Z-40" value="+ 1 - 365 days retention" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="3575" width="135" height="40" as="geometry" />
+        <mxCell id="h16lKIf4oV1V5IKHez9Z-40" value="+ 1 - 365 days retention" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="3610" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h16lKIf4oV1V5IKHez9Z-41" value="+Able to reprocess data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="3610" width="135" height="30" as="geometry" />
+        <mxCell id="h16lKIf4oV1V5IKHez9Z-41" value="+ Able to reprocess data" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="3650" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="h16lKIf4oV1V5IKHez9Z-42" value="+ Data can&#39;t be deleted in Kinesis&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="3630" width="135" height="40" as="geometry" />
+        <mxCell id="h16lKIf4oV1V5IKHez9Z-42" value="+ Data can&#39;t be deleted in Kinesis&amp;nbsp;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="3680" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="h16lKIf4oV1V5IKHez9Z-44" value="+ Same shard goes to same consumers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="3660" width="135" height="40" as="geometry" />
+        <mxCell id="h16lKIf4oV1V5IKHez9Z-44" value="+ Data in Same shard goes to same consumers" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="3720" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h16lKIf4oV1V5IKHez9Z-49" value="+ Data with same partition Key will go to same shard" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="3605" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
